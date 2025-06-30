@@ -57,6 +57,7 @@ int main()
 	cuentaRegresiva.setWinnerScreen();
 	Audio audio;
 	audio.playBackgroundMusic();
+	audio.playAmbienteSound();
 	auto reiniciarJuego = [&]() {
 		// Reiniciar estado del juego
 		player.set_Player();
@@ -101,6 +102,7 @@ int main()
 					//player.get_Player_Sprite().setScale(1, 1);
 					segundaColaCargada = false;
 					derrota = false;
+					victoria = false;
 					colision.contadorColisiones = 0;
 					reiniciarJuego();
 
@@ -112,7 +114,7 @@ int main()
 				bomba.llamarBomb(player.get_Player_Sprite().getPosition());
 				posicionInicialProyectil = player.get_Player_Sprite().getPosition();
 				
-				cout << contadorBombas << endl;
+				//cout << contadorBombas << endl;
 				if (contadorBombas < 2)
 				{   
 					bombalanzada = true;
@@ -155,7 +157,7 @@ int main()
 			cola.primerEnemigoPlat5 == nullptr && cola.enemigoRemovidoPlat5 == nullptr &&
 			cola.primerEnemigoPlat6 == nullptr && cola.enemigoRemovidoPlat6 == nullptr)
 		{
-			cout << "victoria" << endl;
+			//cout << "victoria" << endl;
 			victoria = true;
 		}
 		if (cola.enemigoRemovidoPlat1 != NULL) {
@@ -177,7 +179,7 @@ int main()
 		}
 		if (bombalanzada) { bomba.llamarBomb(posicionInicialProyectil); bomba.lanzarBomb(deltaTime, colision.desaparecerBomba);
 		
-		cout << "MRU ES: " << bomba.mruProyectil<< endl;
+		//cout << "MRU ES: " << bomba.mruProyectil<< endl;
 		if (bomba.mruProyectil <= 0) {
 			contadorBombas++;colision.desaparecerBomba = false;
 		bombalanzada = false;
@@ -234,6 +236,7 @@ int main()
 		}
 		if (victoria == true)
 		{
+			audio.stopAmbienteSound();
 			App.draw(cuentaRegresiva.getWinnerScreen());
 		}
 		/*for (int i = 0; i < 4; i++)

@@ -44,8 +44,9 @@ void UI::showCuentaRegresiva(RenderWindow& window, Sprite bg)
 UI::UI() 
 {
 
-	background.loadFromFile("pantallainicio.png");
+	background.loadFromFile("lowlevelhighspeed.png");
 	backgroundSprite.setTexture(background);
+	backgroundSprite.setScale(0.8, 0.7);
 	textureBomb.loadFromFile("bomb.png");
 
 	bombsCount.setTexture(textureBomb);
