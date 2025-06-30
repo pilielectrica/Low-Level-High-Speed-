@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34212.112
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Trabajo Final MAVI Pilar Marco", "Trabajo Final MAVI Pilar Marco.vcxproj", "{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}.Debug|x64.ActiveCfg = Debug|x64
+		{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}.Debug|x64.Build.0 = Debug|x64
+		{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}.Debug|x86.Build.0 = Debug|Win32
+		{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}.Release|x64.ActiveCfg = Release|x64
+		{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}.Release|x64.Build.0 = Release|x64
+		{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}.Release|x86.ActiveCfg = Release|Win32
+		{7A1BFD70-3AA6-44A2-B3BB-5C95DCE6B3C4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1AFBD89-AABD-40FE-8327-176069AEE1F6}
+	EndGlobalSection
+EndGlobal

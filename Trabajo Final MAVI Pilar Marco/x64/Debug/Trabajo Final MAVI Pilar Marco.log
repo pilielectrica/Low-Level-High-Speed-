@@ -1,0 +1,18 @@
+﻿  Trabajo Final MAVI Pilar Marco.cpp
+D:\Tecnicatura En Diseño y Programacion de Videojuegos\MAVI Final\Trabajo Final MAVI Pilar Marco\Enemigo.h(37,24): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Trabajo%20Final%20MAVI%20Pilar%20Marco.cpp")
+  
+D:\Tecnicatura En Diseño y Programacion de Videojuegos\MAVI Final\Trabajo Final MAVI Pilar Marco\Enemigo.h(37,18): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Trabajo%20Final%20MAVI%20Pilar%20Marco.cpp")
+  
+D:\Tecnicatura En Diseño y Programacion de Videojuegos\MAVI Final\Trabajo Final MAVI Pilar Marco\Enemigo.h(53,21): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Trabajo%20Final%20MAVI%20Pilar%20Marco.cpp")
+  
+D:\Tecnicatura En Diseño y Programacion de Videojuegos\MAVI Final\Trabajo Final MAVI Pilar Marco\Enemigo.h(53,18): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Trabajo%20Final%20MAVI%20Pilar%20Marco.cpp")
+  
+D:\Tecnicatura En Diseño y Programacion de Videojuegos\MAVI Final\Trabajo Final MAVI Pilar Marco\Inocente.h(17,55): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "Trabajo%20Final%20MAVI%20Pilar%20Marco.cpp")
+  
+D:\Tecnicatura En Diseño y Programacion de Videojuegos\MAVI Final\Trabajo Final MAVI Pilar Marco\Trabajo Final MAVI Pilar Marco.cpp(21,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Trabajo Final MAVI Pilar Marco.vcxproj -> D:\Tecnicatura En Diseño y Programacion de Videojuegos\MAVI Final\Trabajo Final MAVI Pilar Marco\x64\Debug\Trabajo Final MAVI Pilar Marco.exe
