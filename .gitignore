@@ -1,0 +1,41 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+*.sdf
+*.opensdf
+*.ipch
+
+# Build output / intermediate files
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+*.recipe
+*.iobj
+*.ipdb
+*.pch
+
+# Generated executables
+*.exe
+
+# Keep runtime DLLs used by this SFML project in source control.
+# If dependencies are managed externally later, *.dll can also be ignored.
+
+# OS files
+.DS_Store
+Thumbs.db
